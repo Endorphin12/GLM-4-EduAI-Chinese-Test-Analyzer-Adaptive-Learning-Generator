@@ -1,12 +1,38 @@
-# GLM-4-EduAI-Chinese-Test-Analyzer-Adaptive-Learning-Generator
-just for getting through my midterm presentation,all AI generated.
+# GLM-4-EduAI-Chinese-Test-Analyzer-Adaptive-Learning-Generator  
+*(Midterm presentation project - fully AI-generated implementation 🚀)*  
 
-how to deploy?
-  1.rename the file ".env.example" to ".env" ,and replace the "YOUR_API_KEY" in it to your real API key in ZHIPU AI. (get your API key in https://bigmodel.cn/)
-  2.install the requirements.
-  2.open the command under the main directory.
-  3.input "flask run" and press 'enter' to run.
-  4.visit http://localhost:5000 
-  5.enjoy my coooooooool design(actually ai's)
+## 🛠️ Deployment Guide  
 
-  attention:do not submit your API key to Git! you could append it to 'gitignore'.
+### 1. **Configure Environment**  
+   - Rename `.env.example` to `.env`:  
+     ```bash
+     mv .env.example .env
+     ```
+   - Edit `.env` and replace `YOUR_API_KEY` with your actual key from [ZHIPU AI](https://bigmodel.cn/)  
+
+### 2. **Install Dependencies**  
+   ```bash
+   pip install -r requirements.txt || pip install flask python-dotenv
+   ```
+
+### 3. **Launch Application**  
+```bash
+# Linux/macOS
+export FLASK_APP=app.py && flask run
+
+# Windows
+set FLASK_APP=app.py && flask run
+```
+
+### 4. **Access Interface​**  
+   - Open in browser: http://localhost:5000  
+
+
+### **⚠️ ​​Security Notice​​**  
+```bash
+echo ".env" >> .gitignore
+git add .gitignore
+```
+
+
+### **Enjoy the AI magic!​​ 🤖✨**  
